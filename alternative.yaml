@@ -18,6 +18,12 @@
 # for detailed explanation, refer to:
 # http://code.google.com/p/rimeime/wiki/CustomizationGuide#%E4%BD%BF%E7%94%A8%E5%85%A8%E5%A5%97%E8%A5%BF%E6%96%87%E6%A8%99%E9%BB%9E 
 
+
+#一、取得此设定档 alternative.yaml，保存到Rime用户目录
+#二、在用户目录新建一个 X.custom.yaml 文件，X替换为常用的输入方案标识，如 luna_pinyin；
+#写入文件内容 patch: 'punctuator/import_preset': alternative
+#三、重新部署生效。
+
 config_version: "0.3"
 
 punctuator:
